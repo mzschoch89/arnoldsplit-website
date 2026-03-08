@@ -4,7 +4,7 @@
 
 :root {
   --foreground-rgb: 255, 255, 255;
-  --background-rgb: 13, 13, 15;
+  --background-rgb: 0, 0, 0;
 }
 
 body {
@@ -22,14 +22,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a1e;
+  background: #121212;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #9B59B6;
+  background: #3D7A38;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #A855F7;
+  background: #4CAF50;
 }

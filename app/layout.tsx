@@ -5,11 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PeekProof - Catch Phone Snoopers',
-  description: 'Know when someone tries to unlock your phone. Capture photos of snoopers automatically with face recognition.',
+  title: 'ArnoldSplit - The Arnold Split Workout App',
+  description: 'Train like Arnold with the ultimate chest & back workout tracker. Progressive overload tracking, rest timers, and workout history built for serious lifters.',
   openGraph: {
-    title: 'PeekProof - Catch Phone Snoopers',
-    description: 'Know when someone tries to unlock your phone. Capture photos of snoopers automatically.',
+    title: 'ArnoldSplit - The Arnold Split Workout App',
+    description: 'Train like Arnold with the ultimate chest & back workout tracker. Progressive overload made simple.',
     type: 'website',
   },
 }

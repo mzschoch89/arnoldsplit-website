@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'brand-purple': '#9B59B6',
-        'brand-purple-light': '#A855F7',
-        'brand-dark': '#1A1A1E',
-        'brand-darker': '#0D0D0F',
+        'brand-green': '#3D7A38',
+        'brand-green-light': '#4CAF50',
+        'brand-dark': '#121212',
+        'brand-darker': '#000000',
       },
     },
   },
