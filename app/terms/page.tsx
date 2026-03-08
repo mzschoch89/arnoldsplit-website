@@ -73,12 +73,26 @@ export default function Terms() {
                 <li>Use the App only for lawful purposes</li>
                 <li>Not misuse or attempt to manipulate the App&apos;s functionality</li>
                 <li>Be responsible for maintaining the accuracy of the data you enter</li>
+                <li>Maintain the confidentiality of your account credentials</li>
               </ul>
             </div>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-brand-green-light mb-4">5. Privacy and Data</h2>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">5. Account Terms</h2>
+            <div className="text-white/70 leading-relaxed space-y-3">
+              <p>If you create an account:</p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>You must provide accurate and complete information</li>
+                <li>You are responsible for all activity under your account</li>
+                <li>You must notify us immediately of any unauthorized access</li>
+                <li>We may suspend or terminate accounts that violate these terms</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">6. Privacy and Data</h2>
             <p className="text-white/70 leading-relaxed">
               Your use of the App is also governed by our <Link href="/privacy" className="text-brand-green-light hover:underline">Privacy Policy</Link>. 
               By using the App, you consent to the collection and use of information as described in our Privacy Policy.
@@ -86,7 +100,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-brand-green-light mb-4">6. Intellectual Property</h2>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">7. Intellectual Property</h2>
             <p className="text-white/70 leading-relaxed">
               The App, including its design, features, and content, is owned by ArnoldSplit and is protected 
               by copyright, trademark, and other intellectual property laws. You may not copy, modify, 
@@ -95,7 +109,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-brand-green-light mb-4">7. Disclaimer of Warranties</h2>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">8. Disclaimer of Warranties</h2>
             <div className="text-white/70 leading-relaxed space-y-3">
               <p>
                 THE APP IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTIES OF ANY KIND, 
@@ -110,7 +124,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-brand-green-light mb-4">8. Limitation of Liability</h2>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">9. Limitation of Liability</h2>
             <p className="text-white/70 leading-relaxed">
               TO THE MAXIMUM EXTENT PERMITTED BY LAW, ARNOLDSPLIT SHALL NOT BE LIABLE FOR ANY INDIRECT, 
               INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO 
@@ -119,7 +133,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-brand-green-light mb-4">9. Changes to Terms</h2>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">10. Changes to Terms</h2>
             <p className="text-white/70 leading-relaxed">
               We reserve the right to modify these Terms at any time. We will notify users of any material 
               changes by posting the updated Terms in the App or on our website. Your continued use of the 
@@ -128,7 +142,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-brand-green-light mb-4">10. Governing Law</h2>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">11. Governing Law</h2>
             <p className="text-white/70 leading-relaxed">
               These Terms shall be governed by and construed in accordance with the laws of the State of 
               Arizona, United States, without regard to its conflict of law provisions.
@@ -136,7 +150,7 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-brand-green-light mb-4">11. Contact Information</h2>
+            <h2 className="text-xl font-semibold text-brand-green-light mb-4">12. Contact Information</h2>
             <p className="text-white/70 leading-relaxed">
               If you have any questions about these Terms, please contact us at{' '}
               <a href="mailto:contact@arnoldsplit.app" className="text-brand-green-light hover:underline">
