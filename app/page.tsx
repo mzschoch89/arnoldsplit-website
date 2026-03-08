@@ -13,8 +13,22 @@ export default function Home() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[120px]" />
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left - Text Content */}
-          <div className="space-y-8">
+          {/* Left - Phone Mockup */}
+          <div className="relative flex justify-center lg:justify-start order-2 lg:order-1">
+            <div className="relative w-full max-w-lg">
+              <Image
+                src="/hero-phones.png"
+                alt="PeekProof App Screenshots"
+                width={600}
+                height={700}
+                className="w-full h-auto"
+                priority
+              />
+            </div>
+          </div>
+
+          {/* Right - Text Content */}
+          <div className="space-y-8 order-1 lg:order-2">
             {/* Logo + Name */}
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-xl overflow-hidden bg-brand-dark border border-purple-500/20">
@@ -68,20 +82,6 @@ export default function Home() {
                 </svg>
                 Video
               </Link>
-            </div>
-          </div>
-
-          {/* Right - Phone Mockup */}
-          <div className="relative flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-lg">
-              <Image
-                src="/hero-phones.png"
-                alt="PeekProof App Screenshots"
-                width={600}
-                height={700}
-                className="w-full h-auto"
-                priority
-              />
             </div>
           </div>
         </div>
