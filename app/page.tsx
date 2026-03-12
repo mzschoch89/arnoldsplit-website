@@ -60,7 +60,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-4 pt-4">
               {/* App Store Badge */}
               <Link 
-                href="https://apps.apple.com/app/arnoldsplit"
+                href="https://apps.apple.com/us/app/arnold-split/id6759944710"
                 className="hover:opacity-80 transition-opacity"
               >
                 <Image
@@ -197,7 +197,7 @@ export default function Home() {
             Download ArnoldSplit and start crushing your chest & back workouts today.
           </p>
           <Link 
-            href="https://apps.apple.com/app/arnoldsplit"
+            href="https://apps.apple.com/us/app/arnold-split/id6759944710"
             className="hover:opacity-80 transition-opacity inline-block"
           >
             <Image
